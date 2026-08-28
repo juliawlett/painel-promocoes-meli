@@ -4,9 +4,12 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "test:google-sheets": "tsx src/scripts/test-google-sheets.ts"
+    "test:google-sheets": "tsx src/scripts/test-google-sheets.ts",
+    "validate:google-sheets": "tsx src/scripts/validate-google-sheets.ts",
+    "buscar-promocoes": "tsx src/scripts/buscar-promocoes.ts"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "googleapis": "^144.0.0"
   },
   "devDependencies": {
